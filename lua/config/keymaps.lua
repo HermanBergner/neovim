@@ -20,3 +20,7 @@ keymap.set('n', '<leader>sx', '<cmd>close<CR>', { desc = 'Close current window' 
 
 keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Scroll up and keep cursor center' })
 keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Scroll down and keep cursor center' })
+
+keymap.set('n', '[q', ':cprev<CR>zz', { desc = 'Go to previous item in quickfix and center' })
+keymap.set('n', ']q', ':cnext<CR>zz', { desc = 'Go to next item in quickfix and center' })
+
