@@ -22,7 +22,7 @@ o.smartcase = true
 o.backspace = 'indent,eol,start'
 
 -- Clipboard
-o.clipboard:append('unnamedplus')
+-- o.clipboard:append('unnamedplus')
 
 -- Swap file
 o.swapfile = false
